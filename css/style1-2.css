@@ -1,0 +1,17 @@
+* { box-sizing: border-box;}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #23424A;
+    color: white;
+
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 5em; /* 5em = 80px => 5*default browser font size = 5 * 16*/
+    /*height: 300px;*/
+}

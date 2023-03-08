@@ -1,0 +1,34 @@
+* { box-sizing: border-box;}
+
+body {
+    margin: 0;
+}
+
+
+.parent {
+    background-color: #23424A;
+    padding: 50px;
+
+    /*when we don't assign a width,
+    our layout will be responsive*/
+    width: 900px;
+    /*let's bring back that 
+    native resposiveness*/
+    width: 80%;
+    /*let's center it*/
+    margin: 0 auto;
+    /*overflow: hidden
+    hides overflow*/
+    /*overflow: hidden;*/
+}
+
+.child {
+    background-color: #38CFD0;
+    /* we don't wanna set a height,
+    it's just here to get us started.*/
+    height: 250px;
+    /*overflow*/
+    width: 750px;
+    /*avoid fixed width*/
+    width: 50%;
+}
